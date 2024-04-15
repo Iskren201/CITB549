@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career Opportunities</title>
+    <link rel="stylesheet" href="StyleSheet.css">
+</head>
+<body>
+    <header class="header_careers"></header>
+
+    <div class="content_services">
+        <div class="main-content_services">
+            <div class="hdr_careers">
+                <h1>Career Opportunities</h1>
+            </div>
+
+            <div class="content_careers">
+                <div class="career-options">
+                    <h2>Available Positions</h2>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Position</th>
+                                <th>Description</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>House Manager</td>
+                                <td>
+                                    Responsible for overseeing routine maintenance and managing various aspects of house management.
+                                </td>
+                                <td>
+                                    <div class="button-container">
+                                        <button class="download-button" onclick="handleDownload()">Download Form</button>
+                                        <button class="upload-button" onclick="handleUploadClick()">Upload Resume</button>
+                                        <input type="file" id="resumeInput" name="resume" accept=".pdf,.doc,.docx" style="display: none" onchange="handleFileChange()" />
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>House Manager Agent Manager</td>
+                                <td>
+                                    Responsible for coordinating between house managers and clients, ensuring smooth communication and management processes.
+                                </td>
+                                <td>
+                                    <div class="button-container">
+                                        <button class="download-button" onclick="handleDownload()">Download Form</button>
+                                        <button class="upload-button" onclick="handleUploadClick()">Upload Resume</button>
+                                        <input type="file" id="resumeInput" name="resume" accept=".pdf,.doc,.docx" style="display: none" onchange="handleFileChange()" />
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript functions can be placed here -->
+</body>
+</html>

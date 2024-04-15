@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\WebApplication3",
+    "\\WebApplication3\\Controllers",
+    "\\WebApplication3\\Models",
+    "\\WebApplication3\\Views",
+    "\\WebApplication3\\Views\\Home",
+    "\\WebApplication3\\Views\\Shared"
+  ],
+  "SelectedNode": "\\WebApplication3\\Views\\Home\\Comment.cshtml",
+  "PreviewInSolutionExplorer": false
+}

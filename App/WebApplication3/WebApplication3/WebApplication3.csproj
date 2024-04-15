@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="Views\Visuals\background.png" />
+    <Content Include="Views\Visuals\background__.png" />
+    <Content Include="Views\Visuals\cleaning.jpg" />
+    <Content Include="Views\Visuals\designer.png" />
+    <Content Include="Views\Visuals\electrician.png" />
+    <Content Include="Views\Visuals\gardening.jpg" />
+    <Content Include="Views\Visuals\home_page_background.png" />
+    <Content Include="Views\Visuals\maintenance.png" />
+    <Content Include="Views\Visuals\painting.jpg" />
+    <Content Include="Views\Visuals\plumbing.png" />
+    <Content Include="Views\Visuals\security.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+</Project>

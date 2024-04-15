@@ -1,0 +1,58 @@
+﻿/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+p {
+    color: #666;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+/* Styling for hero image */
+.hero-image {
+    background-color: #333;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+}
+
+.main-div {
+    background-image: url('../');
+    background-size: cover;
+    background-position: center;
+    height: 300px; /* Set a height to see the background */
+    text-align: center;
+    padding-top: 100px; /* Adjust as needed */
+}
+
+.hero-image {
+    /* Optionally, you can set the size and other properties */
+    width: 100%;
+    height: auto;
+}
+
+
+/* Additional styles as needed */
